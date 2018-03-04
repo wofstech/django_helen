@@ -1,0 +1,12 @@
+{% extends 'base_generic.html' %}
+
+
+{% block content %}
+{% load static %}
+<link rel='stylesheet' href='{% static "blog/styles.css" %}'>
+<h3>New comment</h3>
+<form method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+<button type="submit" class="save btn btn-default">Send</button>
+</form>
+{% endblock %}
