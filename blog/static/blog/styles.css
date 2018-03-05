@@ -46,6 +46,7 @@ body {
     padding: 12px 22px;
     background-color: #5E4485;
     border: 2px solid #fff;
+
 }
 
 .btn2{
@@ -63,13 +64,18 @@ body {
 }
 
 .about{
-    width: 70%;
+    width: 40%;
     margin: auto;
     padding: 20px;
 }
 
 
 .comment {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nocomment{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -121,14 +127,32 @@ footer{
 }
 
 .myforms{
-    width: 50%;
+    width: 30%;
     margin: auto;
     padding: 20px;
+}
+
+.row h4{
+    color: #fff;
+}
+
+.row a:hover{
+    font-size: 20px;
+}
+
+.row a{
+    text-decoration: none;
 }
 
 .myforms h3{
      text-align: center;
      color: #5E4485;
+}
+
+.comform{
+    width: 50%;
+    margin-right: 50%;
+    margin-left: 4%;
 }
 
 .tryit{
@@ -164,5 +188,22 @@ footer{
 
     #icon{
         max-width: 150px;
+    }
+
+    .myforms{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .about{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .comform{
+        width: 80%;
+        margin:auto;
     }
 }
